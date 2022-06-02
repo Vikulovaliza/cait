@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang=ru>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/normalize.css.css">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/my%20style/style.css">
+    <title>Чил-Туры</title>
+</head>
+
+<body>
+<main class="content">
+    <section class="container-fluid main-screen">
+        <div class="vh-50 container d-flex flex-column justify-content-between">
+            <h1><p class="text-center">Путешествие по Японии</p></h1>
+            <h5><p class="text-center">Отдыхай и знакомся с  культурой других стран</p></h5>
+            <nav class="row text-center main-screen_menu">
+                <a href="index.html" class="col-12 col-md-4"><h4>Главная страница</h4></a>
+                <a href="#contacts" class="col-12 col-md-4"><h4>Контакты</h4></a>
+                <a href="Variants.html" class="col-12 col-md-4"><h4>Все виды туров</h4></a>
+            </nav>
+            <div class="void"></div>
+        </div>
+    </section>
+    <section class="container-fluid text-center make-order" id="make-order">
+        <div class="container">
+            <h2><p class="description">Немного о людях, что с удовольствием познакомят вас с Японией</p></h2>
+        </div>
+    </section>
+    
+    <section id="about-us" class="container text-center about-us1">
+        <div class="container row">
+            <div class="img col-12 col-md-5 al"></div><p class="noshow">Он не очень любит маленьких черных детей, так что от него лучше убрать шоколадки!</p>
+            <div class="col-md-1"></div>
+            <div class="text col-12 col-md-6">
+                <h1><p class="description">Алекс, Проверенный тревел-эксперт:
+                    "Я люблю искать новые приключения и впечатления и, конечно же, пробовать местную кухню." </p></h1>
+            </div>
+        </div>
+    </section>
+    <section id="about-us" class="container text-center about-us1">
+        <div class="container row">
+            <div class="img col-12 col-md-5 my"></div>
+            <div class="col-md-1"></div>
+            <div class="text col-12 col-md-6">
+                <h2><p class="description">
+                    Алексей,
+                    Проверенный тревел-эксперт:
+                    "Профессиональный организатор путешествий, фитнес-туров и авторских туров,
+                     основатель нескольких туристических проектов - активные путешествия,
+                      фитнес-туры для женщин.
+                    Организовал и провел лично как тур-лидер около 100 туров по всему миру.
+                    Мой принцип в организации и проведении туров - все для кли Больше"</p></h2>
+            </div>
+        </div>
+    </section>    
+    <section id="about-us" class="container text-center about-us1">
+        <div class="container row">
+            <div class="img col-12 col-md-5 serge"></div>
+            <div class="col-md-1"></div>
+            <div class="text col-12 col-md-6">
+                <h2><p class="description">
+                    Mynameis,
+                    Проверенный тревел-эксперт:
+                    "Наша главная специализация - активные путешествия по Азии,
+                    Африке, Центральной и Южной Америке.
+                    Каждый год мы проводим более 200 маршрутов в 44 странах.
+                    Маршрут строится так, чтобы увидеть как можно больше за
+                    отведенное время. Принять участие в поездках может каждый
+                    физически здоровый человек."
+                </p></h2>
+            </div>
+        </div>
+    </section>    
+    <section id="about-us" class="container text-center about-us1">
+        <div class="container row">
+            <div class="img col-12 col-md-5 sveta"></div>
+            <div class="col-md-1"></div>
+            <div class="text col-12 col-md-6">
+                <h2><p class="description">
+                Светлана,
+                Проверенный тревел-эксперт:
+                "Привет, друзья! Много лет путешествую самостоятельно,
+                если перечислять все страны - это неинтересно,
+                просто напишу, что посетила уже около 50 стран,
+                провожу курсы для самостоятельных путешественников,
+                пишу книги на эту тему..."</p></h2>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container-fluid text-center make-order" id="contacts">
+        <div class="container">
+            <h2><p class="description">Связь с нами: vashput@mail.ru</p>
+                <p class="description">Наш телефон: 8(900)000-00-00</p></h2>
+        </div>
+    </section>
+</main>
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/scripts — копия.js"></script>
+</body>
+</html>
