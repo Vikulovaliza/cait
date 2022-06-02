@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang=ru>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/normalize.css.css">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/my%20style/style.css">
+    <title>Чил-Туры</title>
+</head>
+
+<body>
+<main class="content">
+    <section class="container-fluid main-screen">
+        <div class="vh-50 container d-flex flex-column justify-content-between">
+            <h1><p class="text-center">Путешествие по Японии</p></h1>
+            <h5><p class="text-center">Отдыхай и знакомся с  культурой других стран</p></h5>
+            <nav class="row text-center main-screen_menu">
+                <a href="index.html"class="col-12 col-md-4"><h4>Главная страница</h4></a>
+                <a href="#contacts" class="col-12 col-md-4"><h4>Контакты</h4></a>
+                <a href="OurTeam.html" class="col-12 col-md-4"><h4>Наша команда</h4></a>
+            </nav>
+            <div class="void"></div>
+        </div>
+    </section>
+    <section class="container text-center catalog" id="catalog">
+        <h1><p class="catalog-text">Все виды туров</p></h1>
+        <h5><p class="catalog-text">Если вы хотите с удовольствием и не слишком дорого провести время в хорошей компании, то вот ваш шанс!</p></h5>
+    </section>
+   
+    <section class="container text-center catalog" id="catalog">
+        
+            <div class="void"></div>
+        <div class="container">
+            <div class="catalog-menu row">
+                <div class=" col-md">
+                    <img src = "https://bipbap.ru/wp-content/uploads/2018/04/991c3291173676b0923b3f6b77dfa764.jpg" width="300px" height="170px">
+                    <h4><p>Сакура в Цвету</p>
+<p>10 дней/7 ночей</p>
+<p>Маршрут тура: Токио - Камакура - Киото - Осака - Фудзи-Кавагутико</p>
+<p>Цена: 149 000 рублей</p></h4>
+                </div>
+                <div class=" col-md">
+                    <img src = "https://tourjapan.ru/upload/iblock/d7b/d7beac7e162bee88ec099ea5b697973c.jpg" width="300px" height="171px">
+                    <h4><p>Дорогами Канто</p>
+<p>7 дней / 6 ночей</p>
+<p>Маршрут тура: Токио - Камакура - Никко</p>
+<p>Цена: 82 220 рублей</p></h4>
+                </div>
+                <div class=" col-md">
+                <img src = "https://tourjapan.ru/upload/iblock/287/2871491ef533e447e95b42c1d194ec85.jpg" width="300px" height="170px">
+
+                    <h4><p>Пляжный отдых на Окинава</p>
+<p>11 дней / 10 ночей</p>
+<p>Маршрут тура: Токио - Окинава</p>
+<p>Цена: 141 100 рублей</p></h4>
+                </div>
+                <div class=" col-md" id = "guys" onclick = "guys()">
+                    <img src = "https://tourjapan.ru/upload/iblock/b26/b267c4d5dda245dcbedab61bd0b5795f.jpg" width="300px" height="170px">
+                    <h4><p>Свадебная церемония в Токио</p>
+<p>11 дней/9 ночей</p>
+<p>Маршрут тура: Токио - Окинава</p>
+<p>Цена: 150 700 рублей</p> </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section class="container text-center catalog" id="catalog">
+        <h4><p class="catalog-text">Туры до 60 000₽</p></h4>
+        
+            <div class="void"></div>
+        <div class="container">
+            <div class="catalog-menu row">
+                <div class="col-12 col-md-4">
+                    <img src = "https://tourjapan.ru/upload/iblock/958/958668f68df826483572a194c29f2b9e.jpg" width="400px" height="200px">
+                    <h4><p>26 620 рублей</p><p>BEAUTYWORLD JAPAN - крупнейшая в Японии и одна из самых престижных в мире ярмарок красоты. Здесь Вы можете увидеть инновационные продукты и последние новинки косметологии в Японии.</p></h4>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src = "https://tourjapan.ru/upload/iblock/b39/b39d0edb078e90d249512d98347c7ebf.jpg" width="400px" height="200px">
+                    <h4><p>48 381 рублей</p><p>Вас ждет путешествие в сказку – Диснейленд с феерическими шоу и аттракционы которого выдержаны в морской тематике. Микки ждет Вас в Токио!</p></h4>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src = "https://tourjapan.ru/upload/iblock/06f/06fdd19e6c8bba3bc1e5a232e62760bb.png" width="400px" height="200px">
+                    <h4><p>56 700 рублей</p><p>Целых две недели безграничного веселья в Токио! Вы сможете посетить все самые интересные достопримечательности столицы Японии и увидеть своими глазами традиционную Японию</p></h4>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <section class="container-fluid text-center make-order" id="contacts">
+        <div class="container">
+            <h2><p class="description">Связь с нами: vashput@mail.ru</p>
+                <p class="description">Наш телефон: 8(900)000-00-00</p></h2>
+        </div>
+    </section>
+</main>
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/scripts — копия — копия.js"></script>
+</body>
+</html>
