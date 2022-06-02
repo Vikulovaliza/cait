@@ -1,0 +1,127 @@
+main {
+  background: #332b2d;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-screen {
+  background:center/cover no-repeat;
+    background-color: #332b2d;
+  font-size: x-large;
+  font-weight: bold;
+}
+.noshow{
+  display: none;
+}
+.catalog {
+  background-color: #9c1212;
+  padding-top: 8vh;
+  padding-bottom: 10vh;
+}
+.catalog .catalog-text {
+  margin-bottom: 5vh;
+}
+.catalog .most {
+  background: url("../../img/most.jpg") center/cover no-repeat;
+  border-radius: 10px;
+}
+.catalog .more {
+  background: url("../../img/more.jpg") center/cover no-repeat;
+  border-radius: 10px;
+}
+.catalog .tropa {
+  background: url("../../img/tropa.jpg") center/cover no-repeat;
+  border-radius: 10px;
+}
+.catalog .fonar {
+  background: url("../../img/fonar.jpg") center/cover no-repeat;
+  border-radius: 10px;
+}
+.catalog .hram {
+  background: url("../../img/hram.jpg") center/cover no-repeat;
+  border-radius: 10px;
+}
+.catalog .put {
+  background: url("../../img/put.jpg") center/cover no-repeat;
+  border-radius: 10px;
+}
+.catalog .gorod {
+  background: url("../../img/gorod.jpg") center/cover no-repeat;
+  border-radius: 10px;
+}
+.catalog .sacura {
+  background: url("../../img/sacura.jpg") center/cover no-repeat;
+  border-radius: 10px;
+}
+.catalog .reca {
+  background: url("../../img/reca.jpg") center/cover no-repeat;
+  border-radius: 10px;
+}
+
+.img {
+  height: 30vh;
+  margin-bottom: 10px;
+}
+
+.make-order {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.about-us1 {
+  background-color: #9c1212;
+  padding-top: 8vh;
+  padding-bottom: 10vh;
+}
+
+.about-us2 {
+  padding-top: 8vh;
+  padding-bottom: 10vh;
+}
+.about-us2 .personal-text {
+  margin-bottom: 5vh;
+}
+
+.catalog-menu div, .personal div {
+  margin: 5px 0;
+}
+
+.osaka {
+  height: 30vh;
+  background: url("../../img/osaka.jpg") center/cover no-repeat;
+}
+.sveta {
+  width: 50vh;
+  background: url("../../img/sveta.jpg") center/cover no-repeat;
+}
+.serge {
+  height: 50vh;
+  background: url("../../img/serge.jpg") center/cover no-repeat;
+}
+.my {
+  height: 50vh;
+  background: url("../../img/my.jpg") center/cover no-repeat;
+}
+.kioto {
+  height: 30vh;
+  background: url("../../img/kioto.jpg") center/cover no-repeat;
+}
+.ded {
+  background: url("../../img/ded.jpg") center/cover no-repeat;
+}
+.al {
+  height: 30vh;
+  background: url("../../img/al.jpg") center/cover no-repeat;
+}
+.vital {
+  background: url("../../img/vital.jpg") center/cover no-repeat;
+}
+.guys {
+  background: url("../../img/vital.jpg") center/cover no-repeat;
+}
+
+
+/*# sourceMappingURL=style.css.map */
